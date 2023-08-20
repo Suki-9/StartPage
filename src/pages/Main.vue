@@ -1,7 +1,10 @@
 <script setup lang="ts">
+//Vue Component
+import GoogleSearchBar from "../components/global/GoogleSearchBar.vue";
+
 </script>
 
 
 <template>
-    <p>test</p>
+    <GoogleSearchBar />
 </template>
