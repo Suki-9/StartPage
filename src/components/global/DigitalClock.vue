@@ -62,24 +62,22 @@ setInterval(() => {
 .root {
     font-family: 'Roboto Mono', monospace;
 
-    width: 9vw;
+    width: 96%;
+
+    padding: 2%;
+    margin: 1% 0 1% 0;
+
+    border: solid 1px;
+    border-radius: 7px;
     .clock {
         display: flex;
 
         border-bottom: solid 1px;
-
-        font-size: 300%;
-        line-height: 1em;
-        .clock_child {
-            font-size: 50%;
-            line-height: 1em;
-        }
     }
     .today {
         display: flex;
         align-items: center;
         justify-content: space-between;
-
         .today_child {
             display: flex;
         }

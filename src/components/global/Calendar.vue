@@ -25,10 +25,14 @@ const weekDays = ["日","月","火","水","木","金","土"]
     flex-wrap: wrap;
     flex-direction: row;
 
-    width: 14vw;
-    
+    width: 96%;
+    padding: 2%;
+
+    border: solid 1px;
+    border-radius: 7px;
+
     p {
-        width: calc(100%/7);
+        width: calc(96%/7);
         text-align: right;
     }
     .today {
